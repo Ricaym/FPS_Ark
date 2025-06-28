@@ -3,15 +3,25 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="index.css">
-	<title>Ark Empire overlay</title>
+	<script src="dope.js" defer></script>
+	<title>Ark Empire</title>
 </head>
 <body>
 	<div id="header">
-		
+		<div id="pages">
+			<a href="/">Accueil</a>
+			<a href="/">Classement</a>
+			<a href="/">Personnages</a>
+			<a href="/">Classes</a>
+			<a href="/">Armes</a>
+			<a href="/">Boutique</a>
+			<a href="/">Compte</a>
+		</div>
 	</div>
 	<div id="play-component">
-		<button id="button-choose-mode" href="/">CHOISIR MODE</button>
-		<button id="button-launch-game" href="/">LANCER</button>
+		<button id="button-choose-mode">CHOISIR MODE</button>
+		<button id="button-launch-game">LANCER</button>
+		<p id="counter-display" style="display:none;">Recherche de partie... <span id="counter">0</span> secondes</p>
 	</div>
 </body>
 </html>

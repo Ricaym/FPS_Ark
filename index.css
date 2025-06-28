@@ -3,10 +3,41 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
 button {
     color: #eae0c8;
 	font-size: 25px;
 }
+
+#header {
+	position: fixed;
+	top: 10px;
+	left: 50%;
+	width: 950px;
+	height: 60px;
+	background-color: #202020;
+	backdrop-filter: blur(5px);
+	transform: translate(-50%, 0);
+	border-radius: 20px;
+	box-shadow: 0 0 10px black;
+}
+	#pages {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+	#header a {
+		color: #eae0c8;
+		font-size: 25px;
+		margin: 20px;
+		padding-top: 0;
+		text-decoration: none;
+	}
+		#header a:hover {
+			color: orange;
+		}
 
 #play-component {
     display: flex;
@@ -45,5 +76,10 @@ button {
 			background-color: #202020;
 			border: 2px solid orange;
 		}
-
 /* #536878 */
+
+.found {
+  background-color: #ccc !important;
+  color: #555 ;
+  cursor: default;
+}
